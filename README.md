@@ -1,1 +1,26 @@
-# weather-app
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="weather-box">
+    <h2>Weather Application</h2>
+
+    <input type="text" id="city" placeholder="Enter City Name">
+    <br><br>
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="output">
+      <h3 id="place"></h3>
+      <p id="temp"></p>
+      <p id="weather"></p>
+      <p id="humidity"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
